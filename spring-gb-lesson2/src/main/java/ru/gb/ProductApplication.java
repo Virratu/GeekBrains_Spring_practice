@@ -1,2 +1,4 @@
-package ru.gb;public class ProductApplication {
+package ru.gb;
+
+public class ProductApplication {
 }

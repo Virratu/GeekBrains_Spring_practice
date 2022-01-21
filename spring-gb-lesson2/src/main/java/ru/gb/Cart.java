@@ -1,2 +1,9 @@
-package ru.gb;public class Cart {
+package ru.gb;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("prototype")
+public class Cart {
 }
