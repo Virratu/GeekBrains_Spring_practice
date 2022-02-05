@@ -1,10 +1,12 @@
 package ru.gb;
 
 import lombok.AllArgsConstructor;
-import org.springframework.stereotype.Component;
+import lombok.Getter;
+import lombok.ToString;
 
-@Component
+@Getter
 @AllArgsConstructor
+@ToString
 public class Product {
     private int id;
     private String title;
